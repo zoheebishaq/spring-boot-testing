@@ -26,7 +26,7 @@ public class EmployeeRepositoryTests {
         //when - action or behavior that we are going to test
         Employee savedEmployee =employeeRepository.save(employee);
 
-        //then - verify the output
+        //then - verify the outputh
         Assertions.assertThat(savedEmployee).isNotNull();
         Assertions.assertThat(savedEmployee.getId()).isGreaterThan(0);
 
